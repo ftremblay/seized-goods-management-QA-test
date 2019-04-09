@@ -6,7 +6,5 @@ namespace SeizedGoodsManagement
         float GetSolDelayForNatureCode(long natureCode);
         float GetNonSolDelayForNatureCode(long natureCode);
         float GetNonSolExpertiseDelayForNatureCode(long natureCode);
-
-        void Update(Item item);
     }
 }

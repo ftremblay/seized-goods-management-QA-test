@@ -10,6 +10,5 @@ namespace SeizedGoodsManagement
         public NatureCode NatureCode { get; set; }
 
         public DateTime CreationDate { get; set; }
-        public DateTime RetentionDate { get; set; }
     }
 }
