@@ -120,7 +120,7 @@ public class RetentionDateService
 ```
 
 ## Échéance
-Vous avez 4 jours suite à la réception de ce lien pour pousser dans une branche à votre nom (prénom-nom) votre test.
+L'échéance vous sera transmis par courriel. Envoyez-nous votre solution zippé par courriel au xforce@emergensys.net.
 
 ## Question
-N'hésitez pas à nous poser vos questions au xforce@emergensys.net, c'est même recommendable :)!
+N'hésitez pas à nous poser vos questions au xforce@emergensys.net.
