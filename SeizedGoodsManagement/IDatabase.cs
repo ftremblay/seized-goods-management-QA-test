@@ -2,9 +2,9 @@ namespace SeizedGoodsManagement
 {
     public interface IDatabase
     {
-        float GetSolDNADelayForNatureCode(long natureCode);
-        float GetSolDelayForNatureCode(long natureCode);
-        float GetNonSolDelayForNatureCode(long natureCode);
-        float GetNonSolExpertiseDelayForNatureCode(long natureCode);
+        int GetSolDNADelayForNatureCode(long natureCode);
+        int GetSolDelayForNatureCode(long natureCode);
+        int GetNonSolDelayForNatureCode(long natureCode);
+        int GetNonSolExpertiseDelayForNatureCode(long natureCode);
     }
 }

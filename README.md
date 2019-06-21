@@ -97,12 +97,12 @@ L'interface "IDatabase.cs" déclare des fonctions permettant de retourner diffé
 - "GetNonSolExpertiseDelayForNatureCode": Retourne le délai non-solutionné lors d'une expertise positive selon le code de nature.
 ```csharp
 public interface IDatabase
-    {
-        float GetSolDNADelayForNatureCode(long natureCode);
-        float GetSolDelayForNatureCode(long natureCode);
-        float GetNonSolDelayForNatureCode(long natureCode);
-        float GetNonSolExpertiseDelayForNatureCode(long natureCode);
-    }
+{
+    int GetSolDNADelayForNatureCode(long natureCode);
+    int GetSolDelayForNatureCode(long natureCode);
+    int GetNonSolDelayForNatureCode(long natureCode);
+    int GetNonSolExpertiseDelayForNatureCode(long natureCode);
+}
 ```
 
 La classe "RetentionDateService.cs" expose une méthode permettant de calculer la date de rétention d'un objet. C'est dans cette classe que vous aurez à coder votre algorithme.
